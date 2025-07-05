@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Garage from './Components/Garage';
+import Header from './Components/Header';
+import FavoriteColor from './Components/FavoriteColor';
+import Bike from './Components/Bike';
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Garage />
+    {/* <Header/>
+
+    <FavoriteColor/> */}
+    <Bike/>
+    
   </React.StrictMode>
 );
 
